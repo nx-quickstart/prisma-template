@@ -1,11 +1,11 @@
 {
   "name": "@nx-starter-template/source",
   "version": "0.0.0",
-  "license": "GPL-2.0-ONLY",
+  "license": "MIT",
   "scripts": {
     "dev": "npx concurrently --kill-others \"npm:dev:client\" \"npm:dev:server\"",
     "dev:client": "npx nx run nx-starter-template-client:serve",
-    "dev:server": "npx nx run nx-starter-template:serve"
+    "dev:server": "npx env-cmd -f apps/nx-starter-template/.env.local nx run nx-starter-template:serve"
   },
   "prisma": {
     "schema": "libs/nx-starter-template/data-access-db/src/lib/prisma/schema.prisma"
