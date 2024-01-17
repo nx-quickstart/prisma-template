@@ -1,11 +1,11 @@
 /* eslint-disable */
 export default {
-  displayName: 'nx-starter-template-test-ts-rest',
+  displayName: 'backend-test-ts-rest',
   preset: '../../../jest.preset.js',
   testEnvironment: 'node',
   transform: {
     '^.+\\.[tj]s$': ['ts-jest', { tsconfig: '<rootDir>/tsconfig.spec.json' }],
   },
   moduleFileExtensions: ['ts', 'js', 'html'],
-  coverageDirectory: '../../../coverage/libs/nx-starter-template/test-ts-rest',
+  coverageDirectory: '../../../coverage/libs/backend/test-ts-rest',
 };
