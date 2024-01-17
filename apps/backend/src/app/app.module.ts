@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { TestTsRestModule } from '@nx-starter-template/nx-starter-template-test-ts-rest';
+import { TestTsRestModule } from '@nx-starter-template/backend-test-ts-rest';
 
 @Module({
   imports: [TestTsRestModule],
