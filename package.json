@@ -37,7 +37,7 @@
     "@nx/js": "v17.2.5",
     "@nx/nest": "v17.2.5",
     "@nx/next": "^17.2.5",
-    "@nx/node": "v17.2.5",
+    "@nx/node": "v18.0.4",
     "@nx/react": "v17.2.5",
     "@nx/webpack": "v17.2.5",
     "@nx/workspace": "v17.2.5",
